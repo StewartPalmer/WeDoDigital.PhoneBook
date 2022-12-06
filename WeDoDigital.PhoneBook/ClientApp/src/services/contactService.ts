@@ -1,5 +1,4 @@
 import { Contact } from "../types/ContactInterface";
-import { NewContact } from "../types/NewContactInterface";
 import { UpdateContact } from "../types/UpdateContactInterface";
 
 
@@ -27,7 +26,7 @@ export async function getContactById(id: string): Promise<Contact> {
     return <Contact>response;
 }
 
-export async function addContact(contact: NewContact): Promise<boolean>  {
+export async function addContact(contact: UpdateContact): Promise<boolean>  {
 
     const response = await fetch(`api/contacts/`, {
         method: "POST",

@@ -1,5 +1,5 @@
 export interface UpdateContact { 
-    id: string,
+    id?: string,
     forename: string,
     surname: string,
     contactNumber: string,

@@ -7,7 +7,7 @@ namespace WeDoDigital.PhoneBook.Shared.Models.Display
     {
         [Required]
         public Guid Id { get; set; }
-        public string Forname { get; set; }
+        public string Forename { get; set; }
 
         [Required]
         public string Surname { get; set; }

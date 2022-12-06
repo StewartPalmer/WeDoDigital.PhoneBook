@@ -10,7 +10,7 @@ namespace WeDoDigital.PhoneBook.Shared.Models.Display
 {
     public class NewContactModel
     {
-        public string Forname { get; set; }
+        public string Forename { get; set; }
 
         [Required]
         public string Surname { get; set; }

@@ -2,12 +2,12 @@ import { useCallback, useEffect, useState } from "react"
 import { GiCharacter } from "react-icons/gi"
 import { Contact } from "../types/ContactInterface"
 
-type TextInputProps = {
+type SearchBoxInputProps = {
 searchData:(data:string) => Promise<void>
 }
 
 
-export const TextInput = ({ searchData }: TextInputProps) => {
+export const SearchBoxInput = ({ searchData }: SearchBoxInputProps) => {
  
 
 
