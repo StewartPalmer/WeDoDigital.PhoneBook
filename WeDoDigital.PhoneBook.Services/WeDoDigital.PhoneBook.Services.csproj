@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WeDoDigital.PhoneBook.Data\WeDoDigital.PhoneBook.Data.csproj" />
+    <ProjectReference Include="..\WeDoDigital.PhoneBook.Shared\WeDoDigital.PhoneBook.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
